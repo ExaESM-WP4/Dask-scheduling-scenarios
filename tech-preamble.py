@@ -1,7 +1,7 @@
 
 import dask_jobqueue as dask_jobqueue
 import dask.distributed as dask_distributed
-import dask, os
+import dask, os, time
 
 dask.config.set(
     {
