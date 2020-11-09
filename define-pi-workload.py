@@ -16,5 +16,5 @@ def calculate_pi(size_in_terabytes, chunk_size_in_megabytes):
     xy_inside_circle = (xy ** 2).sum(axis=1) < 1
 
     pi = 4 * xy_inside_circle.mean()
-    
+
     return pi
